@@ -1,0 +1,15 @@
+{
+  "name": "tailwindcss-ninjafood",
+  "version": "1.0.0",
+  "description": "Give credit to Net Ninja for my learning here: https://www.youtube.com/playlist?list=PL4cUxeGkcC9gpXORlEHjc5bgnIi5HEGhw\r Many Thanks to Net Ninja!",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build src/styles.css -o public/styles.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^3.4.14"
+  }
+}
