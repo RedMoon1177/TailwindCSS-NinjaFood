@@ -23,10 +23,8 @@ Using Live-server (development server) to run the website in this project:
    -->
    <code>
    If anyone finds they have to save the file twice to see changes, it'd be because the Live-Server picks up the HTML changes before tailwind has finished building the CSS file and doesn't register the change
-
    Instead of > live-server public
    Try > live-server public --no-css-inject
-
    This will update the page again when the tailwindcss finishes building so you don't have to refresh twice.
    (from @shaunrussell1020 - youtube comment)
    </code>
@@ -37,14 +35,14 @@ for those who are following this tutorial in 2024 with the latest tailwindcss ve
 (from @Jacksons_are_jackson - youtube comment)
 
 1: npx tailwindcss init
+
 2: update tailwind.config.js file according to the following
 <code>
 /\*_ @type {import('tailwindcss').Config} _/
 module.exports = {
 content: [
-
-      "./public/index.html" -- replace this with your path to your html file
-      ]
+"./public/index.html" -- replace this with your path to your html file
+]
 
       ,
       theme: {
