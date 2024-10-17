@@ -4,7 +4,7 @@
   "description": "Give credit to Net Ninja for my learning here: https://www.youtube.com/playlist?list=PL4cUxeGkcC9gpXORlEHjc5bgnIi5HEGhw\r Many Thanks to Net Ninja!",
   "main": "index.js",
   "scripts": {
-    "build-css": "tailwindcss build src/styles.css -o public/styles.css"
+    "build-css": "npx tailwindcss -i ./src/styles.css -o ./public/styles.css --watch"
   },
   "keywords": [],
   "author": "",
