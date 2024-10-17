@@ -10,9 +10,9 @@ module.exports = {
           200: "#888883",
         },
       },
-      fontFamily: {
-        body: ["Sixtyfour Convergence"],
-      },
+      // fontFamily: {
+      //   body: ["Sixtyfour Convergence"],
+      // },
     },
   },
   variants: {},
