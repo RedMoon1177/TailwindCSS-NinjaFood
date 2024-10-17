@@ -34,6 +34,7 @@ Using Live-server (development server) to run the website in this project:
 # Notice:
 
 for those who are following this tutorial in 2024 with the latest tailwindcss version:
+(from @Jacksons_are_jackson - youtube comment)
 
 1: npx tailwindcss init
 2: update tailwind.config.js file according to the following
