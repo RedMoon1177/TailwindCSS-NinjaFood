@@ -24,7 +24,7 @@ Using Live-server (development server) to run the website in this project:
 for those who are following this tutorial in 2024 with the latest tailwindcss version:
 (from @Jacksons_are_jackson - youtube comment)
 
-1: npx tailwindcss init
+1: npx tailwindcss init --full (with default configuration displayed) or without "full" to get the blank config file
 
 2: update tailwind.config.js file according to the following
 <code>
@@ -33,14 +33,9 @@ module.exports = {
 content: [
 "./public/index.html" -- replace this with your path to your html file
 ]
-
-      ,
-      theme: {
-      extend: {},
-      },
-      plugins: [],
-      };
-      </code>
+...
+}
+</code>
 
 3. npx tailwindcss -i ./src/styles.css -o ./public/styles.css --watch
    (update this command in package.json for script to run tailwindcss)
