@@ -14,20 +14,10 @@ Using Live-server (development server) to run the website in this project:
 
 1. Install live-server globally
    To install it globally, run: npm install -g live-server
-   This will make the live-server command available globally on your machine: **live-server public --no-css-inject**
+   This will make the live-server command available globally on your machine: **live-server public**
 
 2. Run live-server locally (without global installation)
-   Alternatively, you can run live-server from the locally installed node module by using npx: **npx live-server public --no-css-inject**
-
-   Why added "--no-css-inject"?
-   -->
-   <code>
-   If anyone finds they have to save the file twice to see changes, it'd be because the Live-Server picks up the HTML changes before tailwind has finished building the CSS file and doesn't register the change
-   Instead of > live-server public
-   Try > live-server public --no-css-inject
-   This will update the page again when the tailwindcss finishes building so you don't have to refresh twice.
-   (from @shaunrussell1020 - youtube comment)
-   </code>
+   Alternatively, you can run live-server from the locally installed node module by using npx: **npx live-server public**
 
 # Notice:
 
