@@ -4,6 +4,7 @@ https://tailwindcss.com/docs/installation
 
 **Font Size**: https://tailwindcss.com/docs/font-size#app
 **Customizing Colors**: https://tailwindcss.com/docs/customizing-colors#app
+**Icons**: https://heroicons.dev/
 
 Give credit to Net Ninja for my learning here: https://www.youtube.com/playlist?list=PL4cUxeGkcC9gpXORlEHjc5bgnIi5HEGhw
 Many Thanks to Net Ninja!
